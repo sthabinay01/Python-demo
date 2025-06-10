@@ -1,1 +1,1 @@
-Basic python progrma
+Basic python program
