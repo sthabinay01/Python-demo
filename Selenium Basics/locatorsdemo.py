@@ -18,3 +18,24 @@ BY.LINK_TEXT
 BY.PARTIAL_LINK_TEXT
 BY.CSS_SELECTOR
 BY>XPATH'''
+
+email_text = driver.find_element(By.ID,'email')
+email_text.send_keys("ttest@gmail.com")
+driver.find_element(By.ID,'enterimg').click()
+
+#XPATH
+# synteax - //tagname[@attribute = 'value'] or //*[@attribute = 'value']
+#//input[@placeholder = 'First Name']
+
+#text
+#label[text()='Full Name*']
+
+#contains
+#//label[contains(text(),'Full Name')]
+
+#index
+#//label[2]
+
+#or & AND
+#//*[@placeholder = 'First Name' and @ng-model="FirstName"]
+
